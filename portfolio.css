@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  height: 100%;
+}
+
+.big_wrapper {
+  background-color: #ff2c3f;
+  min-width: 790px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 440px;
+}
+
+header {
+  background: black;
+  display: flex;
+  height: 80px;
+  color: white;
+}
+
+.logo {
+  width: 40x;
+  height: 40px;
+}
+
+.brand {
+  width: 80px;
+  height: 80px;
+}
+header h1 {
+  display: block;
+  flex: 1;
+  font-size: 3.95rem;
+  margin: 0px;
+  padding-left: 0.6em;
+  padding-top: 0.5em;
+  padding-bottom: 0.4em;
+  align-self: center;
+}
+
+.text {
+  color: white;
+  cursor: default;
+  animation: blink 2s linear infinite;
+  transition: text-shadow;
+}
+.neon {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff2c3f, 0 0 20px #ff2c3f,
+    0 0 25px #9f1c2a, 0 0 30px #000;
+}
+@keyframes blink {
+  50% {
+    opacity: 0.7;
+  }
+}
+
+nav {
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex: auto;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 0px;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+nav ul li {
+  padding: 0.5em;
+}
+nav ul li:hover {
+  background-color: #ff2c3f;
+  opacity: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 80%;
+}
+.box {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  margin: 4em;
+  width: 70%;
+  height: 70%;
+  justify-content: space-between;
+}
+.img {
+  height: 110%;
+  width: 300px;
+  align-self: center;
+}
+footer {
+  height: 75px;
+  background-color: #000;
+  color: #fff;
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+}
+footer h1 {
+  margin: 0px;
+  margin-left: 1.5em;
+  font: lighter;
+  padding: 0.2em;
+  padding-bottom: 0px;
+  align-self: flex-start;
+  display: block;
+}
+.intro {
+  margin: 1em;
+  padding: 2em;
+  font: bolder;
+}
+.links {
+  align-items: center;
+}
+.links a {
+  align-self: center;
+  text-decoration: none;
+}
+.insta {
+  padding: 0.5em;
+  margin-bottom: 0.2em;
+  padding-top: 0.3em;
+}
+.git {
+  padding: 0.5em;
+  margin-bottom: 0.2em;
+}
+.in {
+  height: 55px;
+  width: 55px;
+  padding: 0.2em;
+  margin-top: 0.1em;
+}
